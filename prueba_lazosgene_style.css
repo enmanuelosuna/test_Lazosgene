@@ -1,0 +1,74 @@
+body {
+ background: linear-gradient(165deg, rgb(255,204,220), #f9247d, rgb(238, 105, 147), rgb(255, 0, 106));
+ animation: color 10s ease-in-out; 
+}
+
+h1 {
+ font-size: 80px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+}
+
+.logo {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 75px;
+ animation: bounce 2s infinite;
+}
+
+h2 {
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 50px;
+ text-align: center;
+ color: white;}
+
+.example {
+ height: 390px;
+ width: 390px;
+ border: solid 5px white;
+ border-radius: 20px;
+ transition: transform 0.2s ease;
+}
+
+h3 {
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: white;
+ font-size: 40px;
+ text-align: center;
+}
+
+.ig {
+ padding-bottom: 10px;
+ text-decoration: none;
+ border-radius: 10px;
+ text-align: center;
+ display: block;
+ background-color: white;
+ color: #ff69cb;
+ font-size: 30px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+ transition: transform 0.5s ease;
+}
+
+.ig_logo {
+ margin-top: 15px;
+}
+
+.ig:hover{
+ color:#f6217a;
+ background-color: whitesmoke;
+ transform: scale(1.008);
+}
+
+.example:hover {
+ transform: translateY(-15px);
+}
+
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-15px);}
+ 60% {transform: translateY(-10px);}
+}
